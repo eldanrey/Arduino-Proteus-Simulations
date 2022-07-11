@@ -29,6 +29,7 @@ void lightLed(int number){
         break;
       case 6:
         for(int i=2;i<=4;i++)digitalWrite(i,HIGH);
+        break;
       }
   }
 void offLed(){
